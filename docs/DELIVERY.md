@@ -77,4 +77,12 @@
 
 网页内是确定性的算法推演与短题判定，Java 编程在本地 JDK 运行。参考源码的自检通过不等于学习者自己的实现已通过；页面中的本地挑战和 LeetCode 完成状态属于用户自我记录。
 
-没有账号系统、云同步、在线 Java 判题、LeetCode 登录/提交同步或公开部署。本站讲解、实验、短题与笔记可在本地使用；打开 LeetCode 或官方教材网站需要网络。浏览器清理站点数据会影响学习记录，支持导出 JSON 备份并在同版本页面导入。
+没有账号系统、云同步、在线 Java 判题或 LeetCode 登录/提交同步。本站讲解、实验、短题与笔记可在本地使用；打开 LeetCode 或官方教材网站需要网络。浏览器清理站点数据会影响学习记录，支持导出 JSON 备份并在同版本页面导入。
+
+## 追加交付：GitHub Actions / Pages
+
+2026-10-13，用户确认新建公开仓库 `RyanCheng08/algorithm-steps`，只提交算法网站。新增相对资源路径、静态构建允许清单和自动发布工作流，相关说明见 [DEPLOYMENT](DEPLOYMENT.md)。
+
+追加验证：本地与 GitHub Linux runner 的 **34 项 Node 测试全部通过**（原 31 项 + 3 项构建测试）；静态产物包含 **11 个文件**，不含 PDF 或学习备份。GitHub Actions 中 Temurin **JDK 17** 已实际编译并通过 Java 自检，因此上文 JDK 8 限制仅描述最初本地验收范围。静态产物在本地 `/dist/index.html` 子目录下完成浏览器实验交互验证。
+
+首次运行在 Pages 站点初始化期间遇到配置暂不可见；通过 API 确认 `build_type=workflow` 后重跑，[首次发布运行](https://github.com/RyanCheng08/algorithm-steps/actions/runs/38369118112) 的 build 与 deploy 均成功，对应网站源码提交 `66af9e1ba3356656db742ebd1172ec434aa6850d`。后续发布结果与日志可在 [Actions 工作流](https://github.com/RyanCheng08/algorithm-steps/actions/workflows/pages.yml) 查看，不以本地推送成功代替部署结果。

@@ -2,7 +2,7 @@
 
 ## 发布目标
 
-独立公开仓库：`RyanCheng08/algorithm-steps`。网站地址以 GitHub Pages 部署输出为准，预期为 `https://ryancheng08.github.io/algorithm-steps/`。
+独立公开仓库：[RyanCheng08/algorithm-steps](https://github.com/RyanCheng08/algorithm-steps)。GitHub Pages 配置返回的网站地址为 [算法拾级](https://ryancheng08.github.io/algorithm-steps/)，当前部署状态可在 [Actions](https://github.com/RyanCheng08/algorithm-steps/actions/workflows/pages.yml) 查看。
 
 仓库仅包含算法网站的源码、原创学习内容、测试、参考 Java、开发文档与页面截图，不包含父级学习工作区、原教材 PDF、学习记录备份、临时文件或编译产物。父级私有备份仓库保持原有设置。
 

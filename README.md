@@ -60,7 +60,7 @@ npm start
 
 ## 运行 Java 练习
 
-课程代码采用 Java 8 可用的基础语法，兼容 Java 8 / Java 17；本次实际编译与自检使用 **JDK 8**。JDK 17 的实机验证不在本次记录中。
+课程代码采用 Java 8 可用的基础语法，兼容 Java 8 / Java 17。本地验收使用 **JDK 8**；GitHub Actions 已在 **Temurin JDK 17** 上实际编译并运行自检，后续每次发布都会重复验证。
 
 课程页可以下载 [AlgorithmLab.java](java/AlgorithmLab.java) 与 [AlgorithmLabTest.java](java/AlgorithmLabTest.java)。在两个文件所在目录执行：
 
