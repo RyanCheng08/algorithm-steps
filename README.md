@@ -6,7 +6,7 @@
 
 本项目通过 GitHub Actions 构建并发布到 GitHub Pages，目标地址为 **[算法拾级](https://ryancheng08.github.io/algorithm-steps/)**。构建与部署状态可在 [GitHub Actions](https://github.com/RyanCheng08/algorithm-steps/actions/workflows/pages.yml) 查看。
 
-向本仓库的 `main` 推送会自动运行测试、在 JDK 17 上验证 Java 示例、构建静态文件并发布。Pull Request 只验证、不发布。具体流程见 [部署说明](docs/DEPLOYMENT.md)。
+向本仓库的 `main` 推送会自动运行测试、在 JDK 17 上验证 Java 示例、构建静态文件并发布。Pull Request 只验证、不发布。具体流程见 [部署说明](docs/自动构建与发布.md)。
 
 在线版保留全部课程、实验、短题、笔记和 Java 下载入口；教材通过官方在线入口查阅，不上传本机 PDF。在线版与本地版的进度独立保存，如需迁移，在原地址导出备份，再到新地址导入。
 
@@ -78,7 +78,7 @@ npm run java:generate
 npm test
 ```
 
-修改自己的练习前请另存副本，`java:generate` 会重新生成 `java/AlgorithmLab.java`。实际交付验证项目与结果见 [开发验收记录](docs/DELIVERY.md)。
+修改自己的练习前请另存副本，`java:generate` 会重新生成 `java/AlgorithmLab.java`。实际交付验证项目与结果见 [开发验收记录](docs/开发计划与验收记录.md)。
 
 ## 教材
 
@@ -92,12 +92,12 @@ npm test
 
 ## 项目文档
 
-- [需求与首版边界](docs/REQUIREMENTS.md)
-- [课程与教材映射](docs/CURRICULUM.md)
-- [LeetCode 候选题单与来源](docs/QUESTION_BANK.md)
-- [界面与交互设计](docs/DESIGN.md)
-- [技术设计与数据约定](docs/ARCHITECTURE.md)
-- [开发计划与验收记录](docs/DELIVERY.md)
-- [GitHub Actions 与 Pages 发布](docs/DEPLOYMENT.md)
+- [需求与首版边界](docs/需求与首版边界.md)
+- [课程与教材映射](docs/课程与教材映射.md)
+- [LeetCode 候选题单与来源](docs/力扣题单与来源.md)
+- [界面与交互设计](docs/界面与交互设计.md)
+- [技术设计与数据约定](docs/技术设计与数据约定.md)
+- [开发计划与验收记录](docs/开发计划与验收记录.md)
+- [GitHub Actions 与 Pages 发布](docs/自动构建与发布.md)
 
 文档基线日期：2026-10-13。按先完成文档、再开发的顺序实施；实际验收结果以交付记录为准。
